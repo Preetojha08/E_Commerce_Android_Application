@@ -10,6 +10,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
+        android:id="@+id/main_layout_reg"
         android:layout_marginTop="@dimen/_50sdp"
         android:layout_height="wrap_content"
         android:padding="@dimen/_5sdp">
@@ -148,9 +149,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="81dp"
         android:orientation="vertical"
+        android:layout_below="@id/main_layout_reg"
+        android:layout_marginTop="@dimen/_30sdp"
         android:padding="@dimen/_5sdp">
 
         <LinearLayout
