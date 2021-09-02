@@ -63,7 +63,7 @@
                    <com.google.android.material.textfield.TextInputEditText
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
-                       android:hint="Email"
+                       android:text="preetojha@gmail.com"
                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                        android:drawableLeft="@drawable/ic_mail"
                        android:drawablePadding="@dimen/_10sdp"
@@ -78,6 +78,7 @@
                    android:layout_marginEnd="32dp"
                    android:layout_marginStart="32dp"
                    android:layout_marginTop="16dp"
+                   app:passwordToggleEnabled="true"
                    app:layout_constraintEnd_toEndOf="parent"
                    app:layout_constraintHorizontal_bias="0.0"
                    app:layout_constraintStart_toStartOf="parent"
@@ -86,11 +87,11 @@
                    <com.google.android.material.textfield.TextInputEditText
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
-                       android:hint="Password"
                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                        android:drawableStart="@drawable/ic_key"
                        android:drawablePadding="@dimen/_10sdp"
                        android:id="@+id/password"
+                       android:text="password"
                        android:background="@color/white"
                        android:letterSpacing="0.4"
                        android:inputType="textPassword"/>

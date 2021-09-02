@@ -70,7 +70,7 @@
                             android:background="@color/white"
                             android:drawableLeft="@drawable/ic_user"
                             android:drawablePadding="@dimen/_10sdp"
-                            android:hint="Username"
+                            android:text="Preet Ojha"
                             android:inputType="text" />
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -86,7 +86,7 @@
                             android:background="@color/white"
                             android:drawableLeft="@drawable/ic_mail"
                             android:drawablePadding="@dimen/_10sdp"
-                            android:hint="Email"
+                            android:text="preetojha@gmail.com"
                             android:inputType="text" />
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -102,7 +102,7 @@
                             android:background="@color/white"
                             android:drawableLeft="@drawable/ic_phone"
                             android:drawablePadding="@dimen/_10sdp"
-                            android:hint="Mobile Number"
+                            android:text="9898987676"
                             android:inputType="text" />
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -110,6 +110,7 @@
                         android:layout_width="match_parent"
                         android:layout_marginTop="@dimen/_10sdp"
                         android:layout_marginBottom="@dimen/_23sdp"
+                        app:passwordToggleEnabled="true"
                         android:layout_height="wrap_content">
 
                         <com.google.android.material.textfield.TextInputEditText
@@ -118,10 +119,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@color/white"
-                            android:drawableLeft="@drawable/ic_key"
+                            android:drawableStart="@drawable/ic_key"
                             android:drawablePadding="@dimen/_10sdp"
-                            android:hint="Password"
-                            android:inputType="text" />
+                            android:text="Password"
+                            android:inputType="numberPassword" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                 </LinearLayout>

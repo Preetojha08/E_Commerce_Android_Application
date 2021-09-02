@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -31,6 +33,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
     List<String> pro_title;
     List<Integer> pro_img;
+    DrawerLayout drawer;
 
     LinearLayoutManager HorizontalLayout;
     RecyclerViewAdapter adapter;
@@ -91,7 +94,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         recyclerView_product.setAdapter(adapter);
 
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         setTitle("NGO System Pro");
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -118,7 +121,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
-            case R.id.nav_cart:
+            case (R.id.nav_cart):
                 Toast.makeText(this , "Cart" , Toast.LENGTH_SHORT).show();
                 break;
         }
@@ -127,6 +130,26 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        return false;
+
+        switch (item.getItemId())
+        {
+            case (R.id.nav_setting):
+                startActivity(new Intent(HomeActivity.this,ProfileActivity.class));
+                break;
+
+            case (R.id.nav_logout):
+                startActivity(new Intent(HomeActivity.this,LoginActivity.class));
+                Toast.makeText(this, "Logout successful", Toast.LENGTH_SHORT).show();
+                break;
+
+            case (R.id.nav_motivational):
+                startActivity(new Intent(HomeActivity.this,TrackOrderActivity.class));
+                break;
+
+
+        }
+        drawer.closeDrawer(GravityCompat.START);
+
+        return true;
     }
 }

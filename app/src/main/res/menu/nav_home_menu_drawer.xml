@@ -23,7 +23,7 @@
                 <item
                     android:id="@+id/nav_motivational"
                     android:icon="@drawable/ic_track"
-                    android:title="Track Order" />
+                    android:title="Orders" />
 
                 <item
                     android:id="@+id/nav_job"
@@ -61,7 +61,7 @@
             <menu>
 
                 <item
-                    android:id="@+id/nav_manage"
+                    android:id="@+id/nav_setting"
                     android:icon="@drawable/ic_setting"
                     android:title="Setting" />
 
