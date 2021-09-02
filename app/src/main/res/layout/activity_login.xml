@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="#eee"
+    android:gravity="center"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
    <androidx.constraintlayout.widget.ConstraintLayout
        android:layout_width="match_parent"
        android:id="@+id/main_layout"
-       android:layout_marginTop="@dimen/_50sdp"
        android:layout_height="wrap_content"
        android:padding="@dimen/_5sdp">
 
@@ -101,7 +101,7 @@
        </androidx.cardview.widget.CardView>
 
        <Button
-           android:id="@+id/signin"
+           android:id="@+id/signin_btn"
            android:layout_width="220dp"
            android:layout_height="wrap_content"
            android:layout_marginEnd="@dimen/_8sdp"
@@ -127,7 +127,7 @@
            app:layout_constraintEnd_toEndOf="parent"
            app:layout_constraintHorizontal_bias="0.445"
            app:layout_constraintStart_toStartOf="parent"
-           app:layout_constraintTop_toBottomOf="@+id/signin" />
+           app:layout_constraintTop_toBottomOf="@+id/signin_btn" />
 
    </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -172,7 +172,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:orientation="horizontal">
 
             <TextView

@@ -6,29 +6,29 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single" >
-        <item android:title="NGO Management System">
+        <item android:title="E - Commerce Application">
 
             <menu>
 
                 <item
                     android:id="@+id/nav_event"
-                    android:icon="@drawable/ic_user"
-                    android:title="Order" />
+                    android:icon="@drawable/ic_home"
+                    android:title="Home" />
 
                 <item
                     android:id="@+id/nav_help"
-                    android:icon="@drawable/ic_user"
+                    android:icon="@drawable/ic_cart"
                     android:title="Cart" />
 
                 <item
                     android:id="@+id/nav_motivational"
-                    android:icon="@drawable/ic_user"
-                    android:title="Quotes" />
+                    android:icon="@drawable/ic_track"
+                    android:title="Track Order" />
 
                 <item
                     android:id="@+id/nav_job"
-                    android:icon="@drawable/ic_user"
-                    android:title="Jobs" />
+                    android:icon="@drawable/ic_shop"
+                    android:title="Shop By Categories" />
 
             </menu>
 
@@ -37,24 +37,20 @@
         <item android:title="About US">
             <menu>
 
-                <item
-                    android:id="@+id/nav_gallery"
-                    android:icon="@drawable/ic_user"
-                    android:title="Gallery" />
 
                 <item
                     android:id="@+id/nav_vision"
-                    android:icon="@drawable/ic_user"
+                    android:icon="@drawable/ic_vision"
                     android:title="Vision" />
 
                 <item
                     android:id="@+id/nav_info"
-                    android:icon="@drawable/ic_user"
+                    android:icon="@drawable/ic_info"
                     android:title="Info" />
 
                 <item
                     android:id="@+id/nav_feedback"
-                    android:icon="@drawable/ic_user"
+                    android:icon="@drawable/ic_feedback"
                     android:title="Feedback" />
 
             </menu>
@@ -66,12 +62,12 @@
 
                 <item
                     android:id="@+id/nav_manage"
-                    android:icon="@drawable/ic_user"
+                    android:icon="@drawable/ic_setting"
                     android:title="Setting" />
 
                 <item
                     android:id="@+id/nav_logout"
-                    android:icon="@drawable/ic_user"
+                    android:icon="@drawable/ic_logout"
                     android:title="Logout" />
 
             </menu>

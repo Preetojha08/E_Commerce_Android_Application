@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="#eee"
+    android:gravity="center"
     android:layout_height="match_parent"
     tools:context=".RegistrationActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:id="@+id/main_layout_reg"
-        android:layout_marginTop="@dimen/_50sdp"
         android:layout_height="wrap_content"
         android:padding="@dimen/_5sdp">
 
@@ -131,7 +131,7 @@
         </androidx.cardview.widget.CardView>
 
         <Button
-            android:id="@+id/signin"
+            android:id="@+id/signin_reg_btn"
             android:layout_width="220dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_8sdp"
