@@ -63,7 +63,7 @@
                    <com.google.android.material.textfield.TextInputEditText
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
-                       android:text="preetojha@gmail.com"
+                      android:hint="Email"
                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                        android:drawableLeft="@drawable/ic_mail"
                        android:drawablePadding="@dimen/_10sdp"
@@ -91,7 +91,7 @@
                        android:drawableStart="@drawable/ic_key"
                        android:drawablePadding="@dimen/_10sdp"
                        android:id="@+id/password"
-                       android:text="password"
+                       android:hint="Password"
                        android:background="@color/white"
                        android:letterSpacing="0.4"
                        android:inputType="textPassword"/>
