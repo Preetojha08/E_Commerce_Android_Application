@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalInternshipProject">
-        <activity android:name=".ProfileActivity"  android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".CategoriesActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Cart_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SettingActivity" />
         <activity
             android:name=".TrackOrderActivity"

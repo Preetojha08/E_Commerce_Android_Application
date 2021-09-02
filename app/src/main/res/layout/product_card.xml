@@ -90,7 +90,7 @@
                     android:layout_height="25dp"
                     android:layout_marginTop="@dimen/_5sdp"
                     android:layout_marginRight="@dimen/_5sdp"
-                    android:src="@drawable/ic_cart"
+                    android:src="@drawable/ic_add_cart"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.98"

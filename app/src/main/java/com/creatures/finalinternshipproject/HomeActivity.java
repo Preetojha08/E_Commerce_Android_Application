@@ -17,6 +17,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -38,6 +40,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     LinearLayoutManager HorizontalLayout;
     RecyclerViewAdapter adapter;
 
+    TextView tv_viewall_cat;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +50,16 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_home_portal);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("E-Commerce App");
+
+        tv_viewall_cat=(TextView)findViewById(R.id.tv_view_all_category);
+
+        tv_viewall_cat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this,CategoriesActivity.class));
+            }
+        });
+
 
         recyclerView_cat=(RecyclerView)findViewById(R.id.recyclerView_Categories);
         recyclerView_product=(RecyclerView)findViewById(R.id.recyclerView_product);
@@ -122,7 +136,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case (R.id.nav_cart):
-                Toast.makeText(this , "Cart" , Toast.LENGTH_SHORT).show();
+                Toast.makeText(this , "Your Cart" , Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(HomeActivity.this,Cart_Activity.class));
                 break;
         }
         return true;
@@ -142,8 +157,16 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 Toast.makeText(this, "Logout successful", Toast.LENGTH_SHORT).show();
                 break;
 
+            case (R.id.nav_help):
+                startActivity(new Intent(HomeActivity.this,Cart_Activity.class));
+                break;
+
             case (R.id.nav_motivational):
                 startActivity(new Intent(HomeActivity.this,TrackOrderActivity.class));
+                break;
+
+            case (R.id.nav_job):
+                startActivity(new Intent(HomeActivity.this,CategoriesActivity.class));
                 break;
 
 
