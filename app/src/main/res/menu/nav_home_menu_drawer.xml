@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+        <item android:title="NGO Management System">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_event"
+                    android:icon="@drawable/ic_user"
+                    android:title="Order" />
+
+                <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/ic_user"
+                    android:title="Cart" />
+
+                <item
+                    android:id="@+id/nav_motivational"
+                    android:icon="@drawable/ic_user"
+                    android:title="Quotes" />
+
+                <item
+                    android:id="@+id/nav_job"
+                    android:icon="@drawable/ic_user"
+                    android:title="Jobs" />
+
+            </menu>
+
+        </item>
+
+        <item android:title="About US">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/ic_user"
+                    android:title="Gallery" />
+
+                <item
+                    android:id="@+id/nav_vision"
+                    android:icon="@drawable/ic_user"
+                    android:title="Vision" />
+
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/ic_user"
+                    android:title="Info" />
+
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:icon="@drawable/ic_user"
+                    android:title="Feedback" />
+
+            </menu>
+        </item>
+
+        <item android:title="Profile">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_manage"
+                    android:icon="@drawable/ic_user"
+                    android:title="Setting" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_user"
+                    android:title="Logout" />
+
+            </menu>
+
+        </item>
+
+
+    </group>
+
+
+</menu>

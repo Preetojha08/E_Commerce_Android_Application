@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="NGO Management System">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_event"
+                android:icon="@drawable/ic_user"
+                android:title="Order" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_user"
+                android:title="Cart" />
+
+            <item
+                android:id="@+id/nav_motivational"
+                android:icon="@drawable/ic_user"
+                android:title="Quotes" />
+
+            <item
+                android:id="@+id/nav_job"
+                android:icon="@drawable/ic_user"
+                android:title="Jobs" />
+
+        </menu>
+
+    </item>
+
+</menu>
