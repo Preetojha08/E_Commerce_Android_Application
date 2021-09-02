@@ -5,11 +5,12 @@ E Commerce Android Based Application with morden User Interface(UI).
 
 Sign IN or Login Screen with Google and Facebook Option
 
-![Screenshot_20210902-160735_Final Internship Project](https://user-images.githubusercontent.com/47290783/131888735-6ee7cd70-287f-4bdf-baed-968a7ad21cc6.jpg)
+
+![1](https://user-images.githubusercontent.com/47290783/131890034-150c75a2-aba6-481a-963f-90b55b94617e.jpg)
 
 
 Sign UP or Registeration Scree 
 
-![Screenshot_20210902-160743_Final Internship Project](https://user-images.githubusercontent.com/47290783/131888748-19485e5f-9fc7-49d2-b679-d5d560788225.jpg)
 
+![2](https://user-images.githubusercontent.com/47290783/131890082-925eb0e2-1b6a-46f4-a78e-4e40f37dcd91.jpg)
 
