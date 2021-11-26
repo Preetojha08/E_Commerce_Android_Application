@@ -12,7 +12,7 @@
         android:layout_height="@dimen/_100sdp"
         android:layout_centerInParent="true"
         android:id="@+id/logo_image_view"
-        android:src="@drawable/cart"/>
+        android:src="@drawable/cart_2"/>
 
 
 </RelativeLayout>
