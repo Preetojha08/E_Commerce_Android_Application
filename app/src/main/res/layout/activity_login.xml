@@ -44,7 +44,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:theme="@style/login_box_bg"
+                android:background="@color/white"
                 android:layout_height="match_parent">
 
 
@@ -54,21 +54,27 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="36dp"
-                    android:theme="@style/login_edit_text"
                     android:layout_marginEnd="32dp"
+                    android:background="@color/white"
                     android:hint="Email"
+                    android:textColorHint="@color/black"
+                    app:boxBackgroundMode="outline"
+                    android:backgroundTint="@color/white"
+                    app:boxBackgroundColor="@color/white"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
+                    app:boxStrokeColor="@color/white"
                     app:layout_constraintTop_toTopOf="parent">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/email"
                         android:layout_width="match_parent"
-                        android:theme="@style/login_edit_text"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:cursorVisible="false"
                         android:background="@color/white"
-                        android:drawableLeft="@drawable/ic_mail"
+                        android:drawableLeft="@drawable/ic_baseline_mail"
                         android:drawablePadding="@dimen/_10sdp"
                         android:inputType="text" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -79,24 +85,29 @@
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="32dp"
-                    android:theme="@style/login_edit_text"
+                    app:boxBackgroundMode="outline"
+                    android:backgroundTint="@color/white"
+                    app:boxBackgroundColor="@color/white"
+                    android:background="@color/white"
+                    android:textColorHint="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:passwordToggleEnabled="true"
-                    app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
-                    >
+                    app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:freezesText="true"
+                        android:text=" "
                         android:background="@color/white"
-                        android:theme="@style/login_edit_text"
+                        android:cursorVisible="false"
                         android:drawableStart="@drawable/ic_key"
                         android:drawablePadding="@dimen/_10sdp"
                         android:hint="Password"
-                        android:inputType="textPassword"
+                        android:inputType="numberPassword"
                         android:letterSpacing="0.4" />
                 </com.google.android.material.textfield.TextInputLayout>
 
