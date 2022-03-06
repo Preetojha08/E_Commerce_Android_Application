@@ -41,7 +41,7 @@
         <item name="android:background">@color/black</item>
     </style>
 
-    <style name="login_edit_text">
+    <style name="login_edit_text" parent="Theme.AppCompat.DayNight">
         <item name="android:textColor">@color/purple_700</item>
         <item name="hintTextColor">@color/light_blue</item>
         <item name="background">@color/teal_700</item>

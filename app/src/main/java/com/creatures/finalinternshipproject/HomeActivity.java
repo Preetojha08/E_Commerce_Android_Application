@@ -168,8 +168,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             case (R.id.nav_job):
                 startActivity(new Intent(HomeActivity.this,CategoriesActivity.class));
                 break;
-
-
         }
         drawer.closeDrawer(GravityCompat.START);
 

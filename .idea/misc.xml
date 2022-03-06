@@ -11,9 +11,10 @@
         <entry key="app/src/main/res/drawable/ic_baseline_mail.xml" value="0.15648148148148147" />
         <entry key="app/src/main/res/drawable/ic_key.xml" value="0.15648148148148147" />
         <entry key="app/src/main/res/layout/activity_categories.xml" value="0.26296296296296295" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.26296296296296295" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.2947916666666667" />
         <entry key="app/src/main/res/layout/home_content.xml" value="0.26296296296296295" />
       </map>
     </option>

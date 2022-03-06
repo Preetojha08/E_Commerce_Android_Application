@@ -51,7 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/abril_fatface"
-                    android:text="Preet Ojha"
+                    android:text="Alpesh Solanki"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -147,7 +147,7 @@
                         android:background="@color/white"
                         android:drawableLeft="@drawable/ic_user"
                         android:drawablePadding="@dimen/_10sdp"
-                        android:text="Preet Ojha"
+                        android:text="Alpesh Solanki"
                         android:inputType="text" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -163,7 +163,7 @@
                         android:background="@color/white"
                         android:drawableLeft="@drawable/ic_mail"
                         android:drawablePadding="@dimen/_10sdp"
-                        android:text="preetojha@gmail.com"
+                        android:text="alpesh@gmail.com"
                         android:inputType="text" />
                 </com.google.android.material.textfield.TextInputLayout>
 
